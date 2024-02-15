@@ -1,15 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from '.pages/home;'
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Navbar/>
-        <Routes path="/" exact component={home} />
-        
-      </Router>
-    </div>
+    <Home />
   );
 }
 
