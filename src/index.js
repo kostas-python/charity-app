@@ -1,7 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/home.css';
-import '/assets';
+import './styles/contactUs.css';
+import './styles/aboutUs.css';
+import './styles/donate.css';
+import './styles/nicepage.css';
+import './styles/productDetailsTemplate.css';
+import './images';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
