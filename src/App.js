@@ -1,11 +1,17 @@
-import logo from './logo.svg';
+import React,{ } from 'react';
 import './App.css';
 import Home from './pages/home';
-import './styles/home.css';
+import Header from './pages/header';
+import Footer from './pages/footer';
+
 
 function App() {
   return (
+    <div className="App">
     <Home />
+    <Header />
+    <Footer />
+    </div>
   );
 }
 
