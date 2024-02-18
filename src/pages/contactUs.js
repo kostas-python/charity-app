@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import '/contactUs.css';
+import '/styles/nicepage.css';
 
 function ContactForm() {
     const [formData, setFormData] = useState({

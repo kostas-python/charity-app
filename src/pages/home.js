@@ -1,11 +1,12 @@
 import React from 'react';
-import "../styles/home.css"
+import './styles/home.css';
 
-class Home extends React.Component {
-  render() {
+function Home () {
     return (
-    )
-  }
+      <div className="App">
+        Home
+      </div>
+    );
 }
 
 

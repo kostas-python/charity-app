@@ -2,7 +2,7 @@
   min-height: 1165px;
   background-image: none;
 }
-
+/* u-clearfix u-sheet u-sheet-1*/
 .u-section-1 .u-shape-1 {
   width: calc(((100% - 1140px) / 2)  + 747px);
   height: 1165px;
