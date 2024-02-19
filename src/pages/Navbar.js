@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Header () {
+function Navbar () {
     return (
       <>
         <header
@@ -148,4 +148,4 @@ function Header () {
 }
 
 
-export default Header; 
+export default Navbar; 
