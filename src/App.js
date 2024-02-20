@@ -1,24 +1,27 @@
 import React,{ } from 'react';
-import { BrowserRouter, Link, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
-import Navbar from './pages/Navbar';
+import Navbar from './Navbar';
 import Footer from './pages/Footer';
 import ContactUs from './pages/ContactUs';
+import ContactUs from './pages/Donate';
 
 
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
+    <Router>
+      <div>
         <Navbar />
-        <Route exact path='/' component={Home} />
-        <Route path='/aboutUs' component={AboutUs} />
-        <Route path='/contactUs' component={ContactUs} />
-        <Route path='/footer' component={Footer} />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/aboutUs" component={AboutUs} />
+          <Route path="/contactUs" component={ContactUs} />
+          <Route path="/donate" component={Donate} />
+        </Switch>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 
