@@ -5,11 +5,12 @@ import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import Donate from './pages/Donate';
 
+
 const routes = [
-  { path: '/', component: Home },
-  { path: '/aboutUs', component: AboutUs },
-  { path: '/contactUs', component: ContactUs },
-  { path: '/donate', component: Donate }
+  { path: '/pages/Home', component: Home },
+  { path: '/pages/AboutUs', component: AboutUs },
+  { path: '/pages/ContactUs', component: ContactUs },
+  { path: '/pages/Donate', component: Donate }
 ];
 
 function RenderRoutes() {
