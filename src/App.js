@@ -15,11 +15,27 @@ function App() {
   return (
     <Router>
       <div>
-        <Router>
+        <nav>
+          <ul>
+            <li>
+              <NavLink to="/home" activeClassName="active">Home</NavLink>
+            </li>
+            <li>
+              <NavLink to="/aboutUs" activeClassName="active">About Us</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contactUs" activeClassName="active">Contact Us</NavLink>
+            </li>
+          </ul>
+        </nav>
+
+
+
+
           <Route path="/home" exact component={Home} />
           <Route path="/aboutUs" component={AboutUs} />
           <Route path="/contactUs" component={ContactUs} />
-        </Router>
+        
       </div>
     </Router>
   );
