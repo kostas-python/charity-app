@@ -1,16 +1,15 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import Home from './pages/Home';
-import AboutUs from './pages/AboutUs';
-import ContactUs from './pages/ContactUs';
-import Donate from './pages/Donate';
+import Home from './component/Home';
+import AboutUs from './component/AboutUs';
+import ContactUs from './component/ContactUs';
+/*import Donate from './pages/Donate'; */
 
 
 const routes = [
   { path: '/pages/Home', component: Home },
   { path: '/pages/AboutUs', component: AboutUs },
-  { path: '/pages/ContactUs', component: ContactUs },
-  { path: '/pages/Donate', component: Donate }
+  { path: '/pages/ContactUs', component: ContactUs }
 ];
 
 function RenderRoutes() {
