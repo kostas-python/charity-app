@@ -33,22 +33,22 @@ function Navbar() {
           <div className="u-custom-menu u-nav-container" style={{ display: "none" }}>
             <ul className="u-nav u-spacing-0 u-unstyled u-nav-1">
               <li className="u-nav-item">
-                <Link className="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-light-1 u-text-palette-1-base" to="/home" style={{ padding: "0px 20px" }}>
+                <Link className="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-light-1 u-text-palette-1-base"  to="/Home" style={{ padding: "0px 20px" }}>
                   Home
                 </Link>
               </li>
               <li className="u-nav-item">
-                <Link className="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-light-1 u-text-palette-1-base" to="/aboutUs" style={{ padding: "0px 20px" }}>
+                <Link className="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-light-1 u-text-palette-1-base" to="/AboutUs" style={{ padding: "0px 20px" }}>
                   About Us
                 </Link>
               </li>
               <li className="u-nav-item">
-                <Link className="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-light-1 u-text-palette-1-base" to="/contactUs" style={{ padding: "0px 20px" }}>
+                <Link className="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-light-1 u-text-palette-1-base" to="/ContactUs" style={{ padding: "0px 20px" }}>
                   Contact Us
                 </Link>
               </li>
               <li className="u-nav-item">
-                <Link className="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-light-1 u-text-palette-1-base" to="/donate" style={{ padding: "0px 20px" }}>
+                <Link className="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-light-1 u-text-palette-1-base" to="/Donate" style={{ padding: "0px 20px" }}>
                   Donate
                 </Link>
               </li>

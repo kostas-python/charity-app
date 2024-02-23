@@ -7,9 +7,9 @@ import ContactUs from './component/ContactUs';
 
 
 const routes = [
-  { path: '/pages/Home', component: Home },
-  { path: '/pages/AboutUs', component: AboutUs },
-  { path: '/pages/ContactUs', component: ContactUs }
+  { path: '/home', component: Home },
+  { path: '/aboutUs', component: AboutUs },
+  { path: '/contactUs', component: ContactUs }
 ];
 
 function RenderRoutes() {
