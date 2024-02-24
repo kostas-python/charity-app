@@ -1,9 +1,7 @@
 import React,{ } from 'react';
-import { BrowserRouter as Router, Route,NavLink } from 'react-router-dom';
-import routes from './Routes';
+import { BrowserRouter as Router, Route, Routes,NavLink } from 'react-router-dom';
 import Home from './component/Home';
 import AboutUs from './component/AboutUs';
-import Footer from './component/Footer';
 import ContactUs from './component/ContactUs';
 
 /*import Donate from './pages/Donate'; */
@@ -30,12 +28,11 @@ function App() {
         </nav>
 
 
-
-
-          <routes path="/home" exact component={Home} />
-          <routes path="/aboutUs" component={AboutUs} />
-          <routes path="/contactUs" component={ContactUs} />
-        
+        <Routes> {/* Wrap your routes with Routes */}
+          <Route path="/home" element={<Home />} /> {/* Use element prop to render the component */}
+          <Route path="/aboutUs" element={<AboutUs />} />
+          <Route path="/contactUs" element={<ContactUs />} />
+        </Routes>
       </div>
     </Router>
   );
