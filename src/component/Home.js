@@ -1,6 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
+import image1 from '../images/gdzrte.jpg';
+import image2 from '../images/rse.jpg';
+import image3 from '../images/eere.jpg';
+import image4 from '../images/fd.jpg';
+import image5 from '../images/rtttt.jpg';
 
 
 
@@ -18,7 +21,7 @@ function Home () {
                   data-animation-delay={250}
                 />
                 <img
-                  src="images/gdzrte.jpg"
+                  src={image1}
                   className="u-align-left u-image u-image-1"
                   data-image-width={1200}
                   data-image-height={800}
@@ -68,7 +71,7 @@ function Home () {
                                 className="custom-expanded u-image u-image-1"
                                 data-image-width={700}
                                 data-image-height={763}
-                                src="images/rse.jpg"
+                                src={image2}
                               />
                             </div>
                           </div>
@@ -117,7 +120,7 @@ function Home () {
             <section className="u-clearfix u-section-3" id="sec-e7fe">
               <div className="u-clearfix u-sheet u-sheet-1">
                 <img
-                  src="images/eere.jpg"
+                  src={image3}
                   className="u-align-left u-image u-image-1"
                   data-image-width={1200}
                   data-image-height={800}
@@ -458,7 +461,7 @@ function Home () {
                 data-animation-delay={750}
               />
               <img
-                src="images/fd.jpg"
+                src={image4}
                 alt=""
                 className="u-image u-image-default u-image-1"
                 data-image-width={1200}
@@ -514,6 +517,8 @@ function Home () {
               data-image-width={1980}
               data-image-height={1320}
             >
+              <img src={image5}/>
+
               <div className="u-clearfix u-sheet u-sheet-1">
                 <div
                   className="u-align-left u-border-1 u-border-grey-25 u-container-style u-group u-white u-group-1"
