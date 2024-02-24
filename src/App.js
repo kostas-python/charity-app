@@ -3,8 +3,14 @@ import { BrowserRouter as Router, Route, Routes,NavLink } from 'react-router-dom
 import Home from './component/Home';
 import AboutUs from './component/AboutUs';
 import ContactUs from './component/ContactUs';
+import Header from './component/Header';
 
-/*import Donate from './pages/Donate'; */
+import './styles/Home.css';
+import './styles/AboutUs.css';
+
+import './styles/ContactUs.css';
+import './styles/nicepage.css';
+
 
 
 
@@ -12,7 +18,9 @@ import ContactUs from './component/ContactUs';
 function App() {
   return (
     <Router>
+      <Header />
       <div>
+
         <nav>
           <ul>
             <li>

@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import image1 from '../images/e7146c1d90a5cc006eae6db0f6e1f9f4285b1d16a00c72982d150b9520e125d715366f2afd1c9353df36d92a586093cf7a8be867c134b9939b3412_1280.png';
 
 
-function Navbar() {
+function Header() {
   return (
     <header className="u-clearfix u-header u-palette-3-light-1" id="sec-abaa">
       <div className="u-clearfix u-sheet u-sheet-1">
-        <img className="u-image u-image-contain u-image-round u-preserve-proportions u-radius u-image-1" src="images/e7146c1d90a5cc006eae6db0f6e1f9f4285b1d16a00c72982d150b9520e125d715366f2afd1c9353df36d92a586093cf7a8be867c134b9939b3412_1280.png" alt="" />
+        <img className="u-image u-image-contain u-image-round u-preserve-proportions u-radius u-image-1" src={image1} alt="" />
         <h4 className="u-text u-text-custom-color-2 u-text-1">
           &nbsp; &nbsp;Healing ​Horizons&nbsp;Psychotherapy
           <br />
@@ -60,4 +61,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Header;
