@@ -1,6 +1,6 @@
 import React from 'react';
-import image1 from '../images/fdggg-min.jpg';
-
+import image10 from '../images/fdggg-min.jpg';
+import image11 from '../images/mid-shot-woman-therapist-with-clipboard_23-2148759113.jpg';
 
 
 
@@ -8,6 +8,7 @@ import image1 from '../images/fdggg-min.jpg';
 function ContactUs () {
     return (
         <>
+    
                 <section
                     className="u-clearfix u-grey-10 u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-section-1"
                     id="sec-921f"
@@ -20,7 +21,7 @@ function ContactUs () {
                     />
                     <img
                     className="u-image u-image-1"
-                    src={image1}
+                    src={image10}
                     data-image-width={1980}
                     data-image-height={1057}
                     data-animation-name="customAnimationIn"
@@ -37,12 +38,14 @@ function ContactUs () {
                             </div>
                             <div
                                 className="u-container-style u-image u-layout-cell u-size-20 u-image-2"
+                                
                                 data-image-width={626}
                                 data-image-height={626}
                                 data-animation-name="customAnimationIn"
                                 data-animation-duration={1500}
                                 data-animation-delay={500}
                             >
+                                <img src={image11} />
                                 <div className="u-container-layout u-valign-top u-container-layout-2" />
                             </div>
                             </div>

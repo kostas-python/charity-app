@@ -1,4 +1,6 @@
 import React,{ } from 'react';
+import image12 from '../images/2.jpg';
+import image13 from '../images/3.jpg';
 
 
 
@@ -27,11 +29,14 @@ function AboutUs() {
               data-animation-delay={500}
             >
               <div className="u-container-layout u-similar-container u-valign-top u-container-layout-1">
+              <img src={image12} />
                 <div
                   alt=""
                   className="u-border-7 u-border-palette-3-base u-image u-image-circle u-image-1"
                   data-image-width={598}
-                  data-image-height={598} />
+                  data-image-height={598}
+                 />
+                 
                 <h4 className="u-align-center u-text u-text-2">Jeffrey Brown</h4>
                 <p className="u-align-center u-text u-text-3">
                   {" "}
@@ -122,6 +127,7 @@ function AboutUs() {
                 <div
                   alt=""
                   className="u-border-7 u-border-palette-3-base u-image u-image-circle u-image-2" />
+                 
                 <h4 className="u-align-center u-text u-text-4"> Walter Lilly</h4>
                 <p className="u-align-center u-text u-text-5">
                   {" "}

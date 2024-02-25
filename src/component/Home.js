@@ -4,6 +4,7 @@ import image2 from '../images/rse.jpg';
 import image3 from '../images/eere.jpg';
 import image4 from '../images/fd.jpg';
 import image5 from '../images/rtttt.jpg';
+/*import Header from '../src/component/Header'; */
 
 
 
@@ -11,6 +12,7 @@ import image5 from '../images/rtttt.jpg';
 function Home () {
     return (
       <>
+       
         <section className="u-clearfix u-palette-1-base u-section-1" id="sec-cdd0">
               <div className="u-clearfix u-sheet u-sheet-1">
                 <div
