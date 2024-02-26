@@ -4,7 +4,7 @@ import image2 from '../images/rse.jpg';
 import image3 from '../images/eere.jpg';
 import image4 from '../images/fd.jpg';
 import image5 from '../images/rtttt.jpg';
-/*import Header from '../src/component/Header'; */
+import '../styles/Home.css';
 
 
 
@@ -23,7 +23,8 @@ function Home () {
                   data-animation-delay={250}
                 />
                 <img
-                  src={image1}
+                  src={image1} 
+                  alt=""
                   className="u-align-left u-image u-image-1"
                   data-image-width={1200}
                   data-image-height={800}
@@ -71,6 +72,7 @@ function Home () {
                             <div className="u-container-layout u-container-layout-1">
                               <img
                                 className="custom-expanded u-image u-image-1"
+                                alt=""
                                 data-image-width={700}
                                 data-image-height={763}
                                 src={image2}
@@ -123,6 +125,7 @@ function Home () {
               <div className="u-clearfix u-sheet u-sheet-1">
                 <img
                   src={image3}
+                  alt=""
                   className="u-align-left u-image u-image-1"
                   data-image-width={1200}
                   data-image-height={800}
@@ -519,8 +522,8 @@ function Home () {
               data-image-width={1980}
               data-image-height={1320}
             >
-              <img src={image5}/>
-
+              <img src={image5} alt=""/>
+              
               <div className="u-clearfix u-sheet u-sheet-1">
                 <div
                   className="u-align-left u-border-1 u-border-grey-25 u-container-style u-group u-white u-group-1"

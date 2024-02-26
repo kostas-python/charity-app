@@ -1,7 +1,6 @@
 import React,{ } from 'react';
 import image12 from '../images/2.jpg';
-import image13 from '../images/3.jpg';
-
+import '../styles/AboutUs.css';
 
 
 function AboutUs() {

@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/ContactUs.css';
 import image10 from '../images/fdggg-min.jpg';
 import image11 from '../images/mid-shot-woman-therapist-with-clipboard_23-2148759113.jpg';
 
