@@ -3,6 +3,7 @@ import image12 from '../images/2.jpg';
 import '../styles/AboutUs.css';
 
 
+
 function AboutUs() {
   return (
     <>
