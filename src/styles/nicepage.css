@@ -3,7 +3,7 @@
  * License https://froala.com/wysiwyg-editor/terms/
  * Copyright 2014-2021 Froala Labs
  */
-
+ @charset "UTF-8";
 .fr-clearfix::after {
   clear: both;
   display: block;
@@ -361,7 +361,7 @@ span.fr-img-caption.fr-view {
       margin: 5px 0 5px 5px;
       max-width: calc(100% - 5px); }
 /*end-commonstyles library*/
-@charset "UTF-8"
+
 .u-hidden-block {
   visibility: hidden!important;
 }

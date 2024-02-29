@@ -1,6 +1,7 @@
 import React,{ } from 'react';
 import image12 from '../images/2.jpg';
 import '../styles/AboutUs.css';
+import '../styles/nicepage.css';
 
 
 function AboutUs() {
